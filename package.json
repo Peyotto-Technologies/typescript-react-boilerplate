@@ -1,7 +1,7 @@
 {
-  "name": "media-library",
+  "name": "React SPA",
   "version": "1.0.0",
-  "description": "Media Library Single Page Application",
+  "description": "React Single Page Application",
   "main": "index.js",
   "scripts": {
     "test": "jest --no-cache",
@@ -16,8 +16,7 @@
     "publish-prod": "npm run update-version && npm run build-prod && npm run upload-prod"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/renderforest/media-library.git"
+    "type": "git"
   },
   "engines": {
     "node": "14.15.1",
@@ -47,9 +46,6 @@
     ]
   },
   "dependencies": {
-    "@renderforest/rf-ui-library": "1.0.807",
-    "framer-motion": "^2.9.2",
-    "image-file-to-base64-exif": "^1.0.3",
     "immer": "9.0.2",
     "lodash.debounce": "^4.0.8",
     "lodash.isequal": "^4.0.8",
